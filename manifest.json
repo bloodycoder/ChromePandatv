@@ -1,0 +1,25 @@
+{
+	"manifest_version":2,
+
+	"name": "panda_comment",
+
+	"description":"auto send comment",
+
+	"version":"1.5",
+
+	"browser_action":{
+		"default_icon":"icon.jpg",
+		"default_title":"auto comment",
+		"default_popup":"popup.html"
+	},
+	"content_scripts":[
+	{
+		"js":["jquery.js","myscript.js"],
+		"matches":[
+		"http://www.panda.tv/*",
+		"https://www.baidu.com/*"
+		]
+	}
+	],
+	"permissions":["tabs","http://www.panda.tv/*"]
+}
