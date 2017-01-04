@@ -1,9 +1,9 @@
 {
 	"manifest_version":2,
 
-	"name": "panda_comment",
+	"name": "熊猫tv刷屏工具",
 
-	"description":"auto send comment",
+	"description":"自动发弹幕",
 
 	"version":"1.5",
 
